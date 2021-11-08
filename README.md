@@ -8,7 +8,7 @@ The purpose of the analysis was to determine which candidate won the election ba
 ---
 ## Election Audit Results
 ### Election Outcomes 
-The first step in my audit after importing the csv and os was to link the election results csv to python by assigning a variable to load a file from a path. Following that step I assigned a variable to save the file to a path. Reading and writing data, I performed calculations on the vote count and used conditional statements and loops to calculate the results. The following bullet points contain the election audit results
+The first step in my audit after importing the csv and os was to link the election results csv to python by assigning a variable to load a file from a path. Following that step I assigned a variable to save the file to a path. Reading and writing data, I performed calculations on the vote count and used conditional statements and loops to calculate the results. The following bullet points contain the election audit results:
 * Total votes in election: 369,711
 * The three candidates were Charles Casper Stockham, Diana DeGette and Raymon Anthony Doane
   * Charles Capser Stockham recieved 85,213 votes (23% of the total votes)
