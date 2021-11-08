@@ -3,7 +3,7 @@
 week 3 for Coloumbia's DS bootcamp
 ---
 ## Overview of Election Audit
-The purpose of the analysis was to determine which candidate won the election based on their vote percentage and total number of votes. In addition, I calculated  the total number of votes that came from each county and determined which county was the largest contributer. To perform this analysis I used python via the Visual Studio Code platform. 
+A Colorado Board of Elections requested for an election audit of a recent local congressional election. The goal of the analysis was to determine which candidate won the election based on their vote percentage and total number of votes. In addition, I calculated  the total number of votes that came from each county and determined which county was the largest contributer. To perform this analysis I used python via the Visual Studio Code platform. 
 
 ---
 ## Election Audit Results
@@ -23,25 +23,9 @@ Colorado's three counties tallied up to 369,711 votes. Denver was the largest co
 ![election analysis results.png](https://user-images.githubusercontent.com/48603147/140675066-96bce950-826e-4073-b7a0-6d4920e6ee19.png)
 
 
-
-In the
-
-After counting up the total votes for each candidate I calculated their vote percentage by dividing their total votes by the total number of votes. My code can be seen in the following screenshot. 
-![county vote count.png](https://user-images.githubusercontent.com/48603147/140671470-563ff65e-97c6-48ff-b182-4acaea1b693c.png)
-
-### Outcomes Based on Goals
-In the second step of the analysis, I narrowed down the focus on plays, a sub category of theater. This time I compared how the outcomes were impacted based on the monetary goals for which the kickstarter’s were set at. To group projects based on their goals, I created dollar-amount ranges so that the data can be read more clearly. Using the Countifs function,…,I calculated the sum of successful, failed and canceled projects based on what range their goals were in. Following that step I summed up the total projects, within their ranges, using the sum function and divided by the number of successful, failed and canceled projects. From this I calculated the percentages of each outcome to make the data easier to understand and manipulate. As you can see from the line graph below, I put the dollar-amount ranges on the x-axis and the outcome percentages on the y-axis. 
-![Outcomes_vs_Goals.png](https://user-images.githubusercontent.com/48603147/138618042-3912440b-ffe0-48aa-ac2d-ae55b38eb0f4.png)
-
-### Challenges
-One of the challenges I encountered was dealing with unexpected results. I thought that there would be a number of canceled plays present in the second analysis however there were none present in the data and it caught me off guard. I thought I made an error so I went to the raw data and filtered out outcomes by canceled. This helped me confirm that the steps I took in the analysis were correct.
-
 ---
-## Results
-### Theater Outcomes by Launch Date
-After analyzing the line chart I created for Theater Outcomes by Launch Date, I concluded that theater Kickstarters were being launched at a higher rate during the spring and beginning of summer time with May having the largest number of projects with successful outcomes. This is probably due to warmer weather and people being more inclined to go out. A second observation I had is that canceled theater projects were not greatly affected by the time of year. This could be because canceling a project could be a result of multiple factors.
-### Outcome based on Goals 
-I have concluded from the line chart that generally goals with lower dollar amounts have higher success rates. While this was not the case for goals between the ranges of $35000 to $44999, the number of projects in that range was small and not really substantial.
+## Election Audit Summary
+### Statement to election commission
+The script I created can be used for any election audit with a couple modifications. When referencing the csv file one would have to change the path to the correct file and make sure that the referenced file has the same column and row formating. If one wanted to reference a new file you could change the code - file_to_load = os.path.join("resources", "new file")- and replace file. One would need to make sure that the new file is properly stored in the the same folder. 
 
-### Dataset limitations
-One limitation in the data set I noticed was that there were a number of outliers present with projects that had very unrealistic monetary goals. With some project goals exceeding a million dollars and others asking for one dollar, the data could have been distorted from these questionable projects. I think a new table that be created for futher analysis could be using a Box Plot of successfully funded plays in the US.
+If there is additional data in the referenced file or if data is stored in a different format, changes would have to be made to the python script when reading header rows and adding up total votes. If for example an extra column of data with demographics on age or race is included, formating is imperetive for refencing to the correct rows or columns.
