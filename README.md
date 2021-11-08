@@ -3,7 +3,7 @@
 week 3 for Coloumbia's DS bootcamp
 ---
 ## Overview of Election Audit
-The purpose of the analysis was to determine which candidate won the election based on their vote percentage and total number of votes. In addtion, I calculated  the total number of votes that came from each county and determined which county was the largest contributer. To perform this analysis I used python via the Visual Studio Code platform. 
+The purpose of the analysis was to determine which candidate won the election based on their vote percentage and total number of votes. In addition, I calculated  the total number of votes that came from each county and determined which county was the largest contributer. To perform this analysis I used python via the Visual Studio Code platform. 
 
 ---
 ## Election Audit Results
