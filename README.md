@@ -20,6 +20,7 @@ The first step in my audit after importing the csv and os was to link the electi
   * Arapahoe county had 24,801 voters and made up 6.7% of the total vote count
 
 Colorado's three counties tallied up to 369,711 votes. Denver was the largest county with 306,055 votes making up 82.8% of the total vote count and Dianna DeeGette  won the election by recieving 272,892 votes whihc was 73.% of the total votes. The election results can also be seen in the text file election_analyis.txt, as seen in the screen shot below.
+![election analysis results.png(https://user-images.githubusercontent.com/48603147/140675141-ec1a35f4-f63f-4851-990e-ea2d7cc43c24.png)
 
 
 
