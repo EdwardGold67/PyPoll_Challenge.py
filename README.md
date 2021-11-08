@@ -13,7 +13,7 @@ The first step in my audit after importing the csv and os was to link the electi
 * The three candidates were Charles Casper Stockham, Diana DeGette and Raymon Anthony Doane
   * Charles Capser Stockham recieved 85,213 votes (23% of the total votes)
   * Diana DeGette recieved 272,892 votes (73.8% of the total votes)
-  * Raymon Anthony DoaneL recieved 11,606 votes (3.1% of the total votes)
+  * Raymon Anthony Doane recieved 11,606 votes (3.1% of the total votes)
 * The three county's that voted were Jefferson county, Denver county and Arapahoe county
   * Jefferson county had 38,855 voters and made up 10.5% of the total vote count
   * Denver county had 306,055 voters and made up 82.8% of the total vote count
